@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:translationZ="10dp"
+        app:cardCornerRadius="1dp"
+        app:cardElevation="5dp"
+        app:contentPadding="5dp">
+        <LinearLayout
+            android:id="@+id/linearLayout_workExperience"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <TextView
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Change you Username"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Username is Visible in Chatting For Other Users"
+                android:textColor="@color/aluminum" />
+
+
+
+            <EditText
+                android:backgroundTint="#032f6e"
+                android:id="@+id/newUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="5dp"
+                android:hint="New Username" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_submit_changepassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/buttonscontinuestyle"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Submit"
+                android:textColor="#032f6e" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+           android:layout_marginTop="25dp"
+            android:id="@+id/postIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/rounded_drawable"
+            android:gravity="center"
+            android:src="@drawable/default_avata"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/image"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvEmailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Job illustration"
+            android:textColor="@color/primary_darker" />
+
+        <TextView
+
+            android:id="@+id/tvEmailSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company name"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvEmailDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job location"
+            android:textColor="@color/jet" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvpostExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvEmailTitle"
+                android:layout_below="@+id/tvEmailTitle"
+                android:text="Experience" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   " />
+
+            <TextView
+                android:id="@+id/tvGenderPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/tvEmailTitle"
+                android:layout_toEndOf="@+id/tvEmailTitle"
+                android:text="Gender" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_marginLeft="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/tvEmailTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post date" />
+
+        <ImageView
+            android:id="@+id/ivFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_star_icon" />
+        <TextView
+            android:id="@+id/post_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00FF00"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

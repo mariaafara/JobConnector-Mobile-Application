@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/expDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textColor="@color/black"
+            android:textSize="19dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" at "   android:textColor="@color/black"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:id="@+id/expCompanyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CompanyName"   android:textColor="@color/black"
+                android:textSize="19dp"/>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/expPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="position : "
+            android:textColor="@color/black"
+            android:textSize="19dp"/>
+
+        <TextView
+            android:id="@+id/expJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job"
+            android:textColor="@color/black"
+            android:textSize="19dp"/>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/expCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textColor="@color/black"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" , "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="19dp"/>
+
+            <TextView
+                android:id="@+id/expCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City"   android:textColor="@color/black"
+                android:textSize="19dp"/>
+        </LinearLayout>
+
+        <com.example.abo8a.jobconnector.TextViewExpandableAnimation
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/expDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tvea_expandBitmap="@drawable/ic_arrow_down"
+            app:tvea_expandLines="1"
+            app:tvea_shrinkBitmap="@drawable/ic_arrow_up"
+            app:tvea_textContentColor="@color/black"
+            app:tvea_textContentSize="19dp"
+            app:tvea_textExpand="@string/expand"
+            app:tvea_textShrink="@string/shrink"
+            app:tvea_textStateColor="@color/colorPrimary" />
+        <EditText
+            android:id="@+id/expEexid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="exid"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abo8a.jobconnector.SearchFragment">
+
+    <LinearLayout
+        android:id="@+id/GoToSearchLinear"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/dots"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="JobConnector"
+            android:textColor="@color/primary_darker"
+            android:textSize="39dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Find The Job That Fits Your Life"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:translationZ="2dp"
+            app:cardCornerRadius="1dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal">
+
+                <com.tomer.fadingtextview.FadingTextView
+                    android:id="@+id/fadingTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.8"
+                    app:texts="@array/examples"
+                    app:timeout="500"></com.tomer.fadingtextview.FadingTextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:background="@color/primary_darker"
+                    android:drawableRight="@drawable/ic_search_white" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <!--    android:background="@drawable/edit_text"-->
+            <EditText
+                android:id="@+id/etSearchIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70dp"
+                android:editable="false"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

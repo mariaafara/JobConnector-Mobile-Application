@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_search_icon"
+        android:title="Search Job"
+        android:id="@+id/_searchMenu"/>
+
+    <item
+        android:icon="@drawable/ic_saved_icon"
+        android:title="My Jobs"
+        android:id="@+id/_savedMenu"/>
+
+    <item
+        android:icon="@drawable/ic_star_icon"
+        android:title="Ratings"
+        android:id="@+id/_ratingsMenu"/>
+
+    <item
+        android:icon="@drawable/ic_person_icon"
+        android:title="My Profile"
+        android:id="@+id/_profileMenu"/>
+
+    <item
+        android:icon="@drawable/ic_more_icon"
+        android:title="More"
+        android:id="@+id/_moreMenu"/>
+
+</menu>

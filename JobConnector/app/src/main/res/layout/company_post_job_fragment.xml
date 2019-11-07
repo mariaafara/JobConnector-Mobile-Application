@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abo8a.jobconnector.Company.CompanyPostJobFragment"
+    android:id="@+id/company_post_job_fragment"
+    >
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/jobpost"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Start finding talent quickly" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="by posting you first job"
+        android:layout_marginBottom="20dp"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_postJob"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+       android:layout_gravity="center"
+        android:background="@drawable/buttonstyle"
+        android:text="POST A JOB"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+</LinearLayout>

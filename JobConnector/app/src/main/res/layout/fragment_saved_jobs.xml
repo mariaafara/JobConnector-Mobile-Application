@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true"
+    tools:context="com.example.abo8a.jobconnector.SavedJobs">
+
+    <TextView
+        android:id="@+id/no_saved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="No Saved Jobs Yet..."
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_margin="30dp"
+        android:visibility="gone"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="50dp"
+        android:id="@+id/recyclerViewSavedPosts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

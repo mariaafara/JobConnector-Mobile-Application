@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#005082</color>
+  <color name="colorPrimary">#005082</color>
+  <color name="colorPrimaryDark">#005082</color>
+  <color name="colorGreen">#199951</color>
+
+  <color name="transparent">#00000000</color>
+  <color name="translucent_white">#88ffffff</color>
+  <!--OnBoard-->
+
+  <color name="colorIndivateTab">#FFFFFF</color>
+  <color name="colorCardView">#f7f7f7</color>
+  <color name="grey_200">#EEEEEE</color>
+  <color name="grey_500">#a4a4a4</color>
+  <color name="grey_100">#F5F5F5</color>
+  <color name="grey_800">#212121</color>
+
+  <color name="selected_dot">#2D9CDB</color>
+  <color name="idle_dot">#e2e2e2</color>
+  <color name="ob_header">#4A4A4A</color>
+  <color name="ob_desc">#4A4A4A</color>
+  <color name="colorAccent">#FFFFFF</color>
+  <!--___________________________________-->
+
+  <color name="primary_darker">#005082</color>
+  <color name="accent">#000000</color>
+  <color name="colorOrange">#F2B32A</color>
+  <color name="black">#000000</color>
+  <color name="jet">#222222</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#777777</color>
+  <color name="jumbo">#888888</color>
+  <color name="aluminum">#999999</color>
+  <color name="base">#AAAAAA</color>
+  <color name="iron">#CCCCCC</color>
+  <color name="white">#FFFFFF</color>
+
+
+</resources>

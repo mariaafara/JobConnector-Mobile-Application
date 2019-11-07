@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/useractivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abo8a.jobconnector.user">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.abo8a.jobconnector.user">
+
+        <!--<include layout="@layout/content_user"/>-->
+        <com.example.abo8a.jobconnector.NonSwipeableViewPager
+            android:id="@+id/content_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/_fragmentContainer"></com.example.abo8a.jobconnector.NonSwipeableViewPager>
+
+        <!--android.support.v7.widget.FitWindows-->
+        <FrameLayout
+            android:id="@+id/_fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_gravity="top"
+                android:background="@drawable/shadow" />
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/_bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemIconTint="@color/navg_selector"
+                app:itemTextColor="@color/navg_selector"
+                app:menu="@menu/menu_nav" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>

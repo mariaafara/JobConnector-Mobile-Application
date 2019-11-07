@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    tools:context="com.example.abo8a.jobconnector.Company.CompanyJobGenderFragment">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are any Specific "
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender "
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="required?"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" optional"
+            android:textColor="@color/aluminum"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_marginTop="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonselectorstyle"
+            android:button="@android:color/transparent"
+            android:padding="20dp"
+            android:text="  No  "
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="35dp"
+            android:background="@color/aluminum"></View>
+
+        <RadioButton
+            android:id="@+id/btn_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonselectorstyle"
+            android:button="@android:color/transparent"
+            android:padding="20dp"
+            android:text=" Yes "
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_marginTop="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <RadioButton
+
+            android:id="@+id/btn_males"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonselectorstyle"
+            android:button="@android:color/transparent"
+            android:padding="20dp"
+            android:text="  Males  "
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="35dp"
+            android:background="@color/aluminum"></View>
+
+        <RadioButton
+        android:id="@+id/btn_females"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttonselectorstyle"
+        android:button="@android:color/transparent"
+        android:padding="20dp"
+        android:text="Females"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+    </RadioGroup>
+
+
+    />
+
+</LinearLayout>

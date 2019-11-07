@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/_companymyJobsMenu"
+        android:icon="@drawable/ic_job_icon"
+        android:title="My Jobs" />
+
+    <!--<item-->
+        <!--android:id="@+id/_companychatMenu"-->
+        <!--android:icon="@drawable/ic_chat_icon"-->
+        <!--android:title="Chat" />-->
+
+
+    <item
+        android:id="@+id/_companyprofileMenu"
+        android:icon="@drawable/ic_person_icon"
+        android:title="Profile" />
+    <item
+        android:id="@+id/_companysearchMenu"
+        android:icon="@drawable/ic_search_icon"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/_companymoreMenu"
+        android:icon="@drawable/ic_more_icon"
+        android:title="More" />
+
+</menu>

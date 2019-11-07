@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.abo8a.jobconnector.CompleteRegistration">
+
+    <TextView
+        android:id="@+id/id_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="100dp"
+        android:paddingTop="55dp"
+        android:text="Congratulations!"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Your Basic profile registration  is complete.
+To make the most of the app, you need to fill some more proffessional details and it would not take more than a minute."
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="55dp">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_completeRegistration"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonstyle"
+            android:padding="12dp"
+            android:textSize="19dp"
+            android:text="Complete Registration"
+            android:textColor="@color/white" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_Quit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buttonstyle"
+            android:padding="12dp"
+            android:text="Quit"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
